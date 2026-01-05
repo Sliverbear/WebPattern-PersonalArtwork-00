@@ -1,0 +1,25 @@
+{
+  "name": "personal-art-exhibition",
+  "version": "1.0.0",
+  "description": "A modern dark mode personal art exhibition website",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "npx tailwindcss -i ./css/styles.css -o ./css/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "art",
+    "exhibition",
+    "portfolio",
+    "gallery"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 

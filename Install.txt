@@ -1,9 +1,0 @@
-使用 Cookiecutter（推荐）
-
-    安装 Cookiecutter：
-
-pip install cookiecutter
-
-创建新项目：
-
-cookiecutter ghgrapeotdevin.cursorrules --checkout template
